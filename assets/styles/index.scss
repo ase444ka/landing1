@@ -1,0 +1,10 @@
+
+@import url('./reset.css');
+@import url('../fonts/fonts.css');
+
+.container {
+  max-width: 1230px;
+  @media screen and (min-width: 1300px) {
+    padding: 0;
+  }
+}
