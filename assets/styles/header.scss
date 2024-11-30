@@ -1,0 +1,29 @@
+.header {
+  padding-top: 18px;
+  &__inner {
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    gap: 39px;
+  }
+  ul {
+    display: flex;
+  }
+  &__nav {
+    ul {
+      gap: 28px;
+
+    }
+    a {
+      color: var(--grey);
+      font-size: 15px;
+
+    }
+  }
+  &__auth {
+    align-self: end;
+    justify-content: flex-end;
+  }
+
+}

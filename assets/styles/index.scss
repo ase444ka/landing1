@@ -2,8 +2,24 @@
 @import url('./reset.css');
 @import url('../fonts/fonts.css');
 
+:root {
+  --grey: #33383F;
+  --black: #1F1F1F;
+  --white: #FFFFFF;
+  --blue: #0070A0;
+
+
+
+}
+
+body * {
+  color: var(--black);
+  font-family: Inter, sans-serif;
+}
+
 .container {
   max-width: 1230px;
+  margin: auto;
   @media screen and (min-width: 1300px) {
     padding: 0;
   }

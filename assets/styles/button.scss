@@ -1,0 +1,13 @@
+.button {
+  font-size: 15px;
+  line-height: 24px;
+  padding: 5px 36px;
+  &_primary {
+    background-color: var(--blue);
+    color: var(--white);
+  }
+  &_secondary {
+    background-color: var(--white);
+    color: var(--blue);
+  }
+}
