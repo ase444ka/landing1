@@ -1,24 +1,27 @@
 .header {
   padding-top: 18px;
+  img {
+    margin-left: 5px;
+  }
   &__inner {
     width: 100%;
     display: grid;
-    grid-auto-flow: column;
+    grid-template-columns: 103px auto auto;
     align-items: center;
     gap: 39px;
   }
   ul {
     display: flex;
   }
+
   &__nav {
     ul {
-      gap: 28px;
-
+      gap: 29px;
+      letter-spacing: 0.5px;
     }
     a {
       color: var(--grey);
       font-size: 15px;
-
     }
   }
   &__auth {
@@ -26,4 +29,5 @@
     justify-content: flex-end;
   }
 
+ 
 }
