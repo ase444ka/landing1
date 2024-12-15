@@ -1,8 +1,8 @@
 .button {
-  font-size: 15px;
   line-height: 24px;
-  padding: 7px 22px;
-  letter-spacing: 0.6px
+  padding: 10px 34px;
+  font-size: 17px;
+  letter-spacing: 0.6px;
   &_primary {
     background-color: var(--blue);
     color: var(--white);
@@ -10,5 +10,11 @@
   &_secondary {
     background-color: var(--white);
     color: var(--blue);
+    padding: 6px 22px;
+  }
+  &_small {
+  font-size: 15px;
+  padding: 6px 22px;
+    
   }
 }

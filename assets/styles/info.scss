@@ -1,9 +1,37 @@
 .info {
+  &__inner {
+    margin-right: -3px;
+    display: grid;
+    padding-top: 89px;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto 1fr;
+    grid-template-areas:
+      'header  img'
+      'slogan  img'
+      'buttons img';
+  }
   &__header {
     font-family: Fraunces;
     font-size: 58px;
     line-height: 63.8px;
     font-weight: 400;
+    grid-area: header;
+    margin-top: 51px;
+    letter-spacing: 1.1px;
+    max-width: 500px;
   }
-  
+  &__slogan {
+    grid-area: slogan;
+    padding: 25px 0px 30px;
+    font-size: 21px;
+    max-width: 360px;
+    letter-spacing: 0.2px;
+    line-height: 1.4;
+  }
+  &__buttons {
+    grid-area: buttons;
+  }
+  &__img {
+    grid-area: img;
+  }
 }

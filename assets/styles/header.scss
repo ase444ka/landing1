@@ -1,8 +1,6 @@
 .header {
   padding-top: 18px;
-  img {
-    margin-left: 5px;
-  }
+
   &__inner {
     width: 100%;
     display: grid;
@@ -17,7 +15,7 @@
   &__nav {
     ul {
       gap: 29px;
-      letter-spacing: 0.5px;
+      letter-spacing: 0.4px;
     }
     a {
       color: var(--grey);
@@ -27,6 +25,7 @@
   &__auth {
     align-self: end;
     justify-content: flex-end;
+    gap: 9px;
   }
 
  
