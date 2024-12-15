@@ -1,0 +1,17 @@
+.customers {
+  &__inner {
+    padding-top: 136px;
+  }
+  &__header {
+    font-size: 24px;
+    text-align: center;   
+    letter-spacing: 0.9px;
+    font-weight: 400;
+  }
+  &__list {
+    display: flex;
+    justify-content: center;
+    margin-top: 31px;
+    gap: 61px;
+  }
+}
