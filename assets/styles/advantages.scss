@@ -1,0 +1,34 @@
+.advantages {
+  &__inner {
+    padding-top: 161px;
+  }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 34px;
+  }
+  &__item {
+    padding: 31px 31px 39px;
+    &_color_yellow {
+      background-color: var(--yellow);
+    }
+    &_color_blue {
+      background-color: var(--blue);
+    }
+    &_color_rose {
+      background-color: var(--rose);
+    }
+  }
+  &__title {
+    font-family: Fraunces, sans-serif;
+    margin-top: 8px;
+    font-size: 25px;
+    letter-spacing: 1.25px;
+    font-weight: 600;
+  }
+  &__text {
+    margin-top: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.1px;
+  }
+}
