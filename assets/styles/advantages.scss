@@ -1,6 +1,7 @@
 .advantages {
   &__inner {
     padding-top: 161px;
+    padding-bottom: 123px;
   }
   &__list {
     display: flex;
@@ -13,22 +14,22 @@
       background-color: var(--yellow);
     }
     &_color_blue {
-      background-color: var(--blue);
+      background-color: var(--light-blue);
     }
     &_color_rose {
       background-color: var(--rose);
     }
   }
   &__title {
-    font-family: Fraunces, sans-serif;
+    font-family: Fraunces, serif;
     margin-top: 8px;
     font-size: 25px;
     letter-spacing: 1.25px;
-    font-weight: 600;
   }
   &__text {
     margin-top: 12px;
     line-height: 1.5;
     letter-spacing: 0.1px;
+    font-weight: 400;
   }
 }
