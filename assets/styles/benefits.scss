@@ -1,0 +1,54 @@
+.benefits {
+  &__inner {
+    padding-top: 119px;
+    padding-bottom: 200px;
+  }
+  &__title {
+    font-family: Fraunces;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 50.4px;
+    letter-spacing: 0.2px;
+    text-align: left;
+  }
+
+  &__text {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    padding-top: 23px;
+    padding-right: 42%;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 63px;
+    gap: 63px;
+  }
+
+  &__item {
+    flex-basis: 234px;
+    h3 {
+      font-family: Fraunces;
+      font-size: 25px;
+      font-weight: 400;
+      line-height: 31.25px;
+      letter-spacing: 0.2px;
+      text-align: left;
+      padding-top: 8px;
+    }
+    p {
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0.2px;
+      text-align: left;
+      padding-top: 14px;
+    }
+  }
+}
