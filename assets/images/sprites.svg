@@ -2,8 +2,12 @@
   <defs>
 
     <symbol id="arrow-down">
-        <path d="M1.71429 1.66663L9.00001 8.74996L16.2857 1.66663" stroke="currentColor" fill="none" stroke-width="2.5"
-          stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M1.71429 1.66663L9.00001 8.74996L16.2857 1.66663" stroke="currentColor" fill="none" stroke-width="2.5"
+        stroke-linecap="round" stroke-linejoin="round" />
+    </symbol>
+
+    <symbol width="19" height="13" viewBox="0 0 19 13" id="check">
+      <path d="M18 1L6.66663 11L1 6.00004" stroke="currentColor" stroke-width="1.6" />
     </symbol>
 
   </defs>
