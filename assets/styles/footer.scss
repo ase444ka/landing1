@@ -1,0 +1,137 @@
+.footer {
+  padding-bottom: 200px;
+  &__top {
+    display: grid;
+    grid-template-columns: 2fr repeat(3, 1fr);
+    gap: 16px;
+    padding-top: 130px;
+    justify-content: space-between;
+    padding-bottom: 67px;
+    border-bottom: 1px solid #dee5eb;
+  }
+  &__about {
+    flex-basis: 26%;
+  }
+  &__logo {
+    img {
+      width: 136px;
+    }
+  }
+  &__authors {
+    display: flex;
+    flex-direction: column;
+    padding-top: 19px;
+    span {
+      font-family: Inter;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 19.6px;
+      letter-spacing: 0.2px;
+      text-align: left;
+    }
+    a {
+      color: var(--blue);
+    }
+  }
+
+  &__nav-block {
+    padding-left: 18px;
+    padding-top: 3px;
+    h3 {
+      font-family: Inter;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0.2px;
+    }
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 9px;
+      padding-top: 15px;
+    }
+    a {
+      font-family: Inter;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0.2px;
+      text-align: left;
+      color: var(--grey-2);
+    }
+  }
+
+  &__subscribe-block {
+    flex-basis: 10%;
+    justify-self: flex-end;
+    flex-grow: 0;
+
+    h3 {
+      font-family: Inter;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0.2px;
+      text-align: left;
+    }
+    p {
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0.2px;
+      text-align: left;
+      padding-top: 14px;
+    }
+  }
+  &__subscribe-form {
+    position: relative;
+    padding-top: 16px;
+    input {
+      height: 44px;
+      border-bottom: 1px solid #c2cdd8;
+      padding-left: 15px;
+      padding-top: 9px;
+
+      &::placeholder {
+        font-family: Inter;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        text-align: left;
+        color: var(--grey-2);
+      }
+    }
+    button {
+      background: url('assets/images/footer/arrow.svg');
+      width: 20px;
+      height: 30px;
+      position: absolute;
+      bottom: 0px;
+      right: -8px;
+    }
+  }
+  &__bottom {
+    padding-top: 37px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__copyright {
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.6px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    a {
+      color: var(--blue);
+    }
+  }
+  &__socials {
+    padding-top: 7px;
+    gap: 18px;
+    display: flex;
+    justify-content: flex-end;
+  }
+}

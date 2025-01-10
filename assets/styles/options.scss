@@ -1,5 +1,5 @@
 .options {
-  background-color: var(--light-grey);
+  background-color: var(--grey-4);
   &__inner {
     padding-top: 79px;
     
@@ -32,8 +32,8 @@
   &__item {
     padding: 16px 13px 12px;
     margin-bottom: 1px;
-    border-top: 1px solid var(--middle-grey);
-    border-bottom: 1px solid var(--middle-grey);
+    border-top: 1px solid var(--grey-3);
+    border-bottom: 1px solid var(--grey-3);
     width: 450px;
     height: 63px;
     overflow: hidden;
@@ -58,7 +58,7 @@
       height: 12px;
       transition: .25s transform ease;
       * {
-        color: var(--middle-grey);
+        color: var(--grey-3);
       }
 
     }
